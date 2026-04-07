@@ -74,12 +74,9 @@
 >
 > 执行后即可正常打开应用。
 
-<details>
-<summary>💬 写在后面</summary>
-
-这是我独立开发的第一个 macOS 应用。从学习 Swift 到完成这个项目，花了不少时间和精力。如果你觉得这个工具有帮助，欢迎给一个 ⭐ Star — 你的认可是我继续开发的最好动力。也许攒够了 Star，我就有理由去买一个 Apple 开发者账号，让安装体验变得更好 😊
-
-</details>
+> **💬 写在后面**
+>
+> 这是我独立开发的第一个 macOS 应用。从学习 Swift 到完成这个项目，花了不少时间和精力。如果你觉得这个工具有帮助，欢迎给一个 ⭐ Star — 你的认可是我继续开发的最好动力。也许攒够了 Star，我就有理由去买一个 Apple 开发者账号，让安装体验变得更好 😊
 
 **方式二：从源码构建**
 
@@ -242,12 +239,9 @@ Download the latest zip from the [Releases](../../releases) page, extract the `.
 >
 > After that, the app will open normally.
 
-<details>
-<summary>💬 A note from the author</summary>
-
-This is the first macOS app I've built as an independent developer. It took a lot of time and effort going from learning Swift to shipping this. If you find it useful, a ⭐ Star would mean the world to me — it's the best motivation to keep going. Who knows, maybe with enough stars I'll finally have a reason to buy an Apple Developer account and make the installation experience seamless 😊
-
-</details>
+> **💬 A note from the author**
+>
+> This is the first macOS app I've built as an independent developer. It took a lot of time and effort going from learning Swift to shipping this. If you find it useful, a ⭐ Star would mean the world to me — it's the best motivation to keep going. Who knows, maybe with enough stars I'll finally have a reason to buy an Apple Developer account and make the installation experience seamless 😊
 
 **Option 2: Build from Source**
 
