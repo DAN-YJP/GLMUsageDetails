@@ -60,7 +60,26 @@
 
 **方式一：下载 DMG**
 
-从 [Releases](../../releases) 页面下载最新版本的 `.dmg` 文件，将应用拖入 `Applications` 文件夹。
+从 [Releases](../../releases) 页面下载最新版本的压缩包，解压后将 `.dmg` 文件中的应用到 `Applications` 文件夹。
+
+> **首次打开提示"已损坏，无法打开"？**
+>
+> 由于尚未购买 Apple 开发者证书，应用未经 Apple 公证签名，macOS Gatekeeper 会将其识别为未知来源并拦截打开。这不是应用本身存在问题。
+>
+> 解决方法：安装后、首次打开前，在终端执行以下命令移除隔离标记即可：
+>
+> ```bash
+> sudo xattr -r -d com.apple.quarantine /Applications/GlmUsageDetails.app
+> ```
+>
+> 执行后即可正常打开应用。
+
+<details>
+<summary>💬 写在后面</summary>
+
+这是我独立开发的第一个 macOS 应用。从学习 Swift 到完成这个项目，花了不少时间和精力。如果你觉得这个工具有帮助，欢迎给一个 ⭐ Star — 你的认可是我继续开发的最好动力。也许攒够了 Star，我就有理由去买一个 Apple 开发者账号，让安装体验变得更好 😊
+
+</details>
 
 **方式二：从源码构建**
 
@@ -209,7 +228,26 @@ The settings panel allows configuring API Key, Host URL, auto refresh, theme, la
 
 **Option 1: Download DMG**
 
-Download the latest `.dmg` from the [Releases](../../releases) page and drag the app to your `Applications` folder.
+Download the latest zip from the [Releases](../../releases) page, extract the `.dmg`, and drag the app to your `Applications` folder.
+
+> **"App is damaged and can't be opened" on first launch?**
+>
+> Since I don't have an Apple Developer certificate yet, the app is not signed or notarized by Apple. macOS Gatekeeper will block it as an unidentified developer. This does not mean the app is harmful.
+>
+> **Fix:** Run the following command in Terminal before opening the app for the first time:
+>
+> ```bash
+> sudo xattr -r -d com.apple.quarantine /Applications/GlmUsageDetails.app
+> ```
+>
+> After that, the app will open normally.
+
+<details>
+<summary>💬 A note from the author</summary>
+
+This is the first macOS app I've built as an independent developer. It took a lot of time and effort going from learning Swift to shipping this. If you find it useful, a ⭐ Star would mean the world to me — it's the best motivation to keep going. Who knows, maybe with enough stars I'll finally have a reason to buy an Apple Developer account and make the installation experience seamless 😊
+
+</details>
 
 **Option 2: Build from Source**
 
