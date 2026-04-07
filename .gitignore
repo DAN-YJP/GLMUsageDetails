@@ -1,0 +1,30 @@
+# Xcode
+.xcode/
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdatad
+xcuserdata/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+*.swp
+*~
+._*
+
+# Build artifacts
+dist/*.dmg
+dist/*.zip
+
+# Secrets
+.env
+*.env
+
+# IDE
+*.idea/
+.vscode/
